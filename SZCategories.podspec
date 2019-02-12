@@ -26,9 +26,14 @@ Pod::Spec.new do |s|
       ss.source_files = 'SZCategories/Sources/Thread/**/*'
   end
 
+  s.subspec 'Macros' do |ss|
+      ss.source_files = 'SZCategories/Sources/Macros/**/*'
+  end
+
   s.subspec 'SZCategories' do |ss|
      ss.dependency 'SZCategories/Safe'
      ss.dependency 'SZCategories/Thread'
+     ss.dependency 'SZCategories/Macros'
   end
 
 end

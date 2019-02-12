@@ -68,6 +68,7 @@
 		1C0D935922129D7800853CDC /* NSObject+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Common.m"; sourceTree = "<group>"; };
 		1C0D935A22129D7800853CDC /* NSObject+ZTSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZTSafe.h"; sourceTree = "<group>"; };
 		1C0D935B22129D7800853CDC /* NSObject+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Common.h"; sourceTree = "<group>"; };
+		1C0D93632212AC9300853CDC /* SZCommonMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCommonMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +153,7 @@
 		1C0D934822129D2F00853CDC /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1C0D93622212AA9600853CDC /* Macros */,
 				1C0D934C22129D7800853CDC /* Safe */,
 				1C0D934922129D7800853CDC /* Thread */,
 			);
@@ -215,6 +217,14 @@
 				1C0D935822129D7800853CDC /* NSObject+ZTSafe.m */,
 			);
 			path = NSObject;
+			sourceTree = "<group>";
+		};
+		1C0D93622212AA9600853CDC /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				1C0D93632212AC9300853CDC /* SZCommonMacros.h */,
+			);
+			path = Macros;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

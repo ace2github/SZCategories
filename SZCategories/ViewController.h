@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SZCommonMacros.h"
 
+SZY_EXTERN_CONST_STRING kName;
 @interface ViewController : UIViewController
-
-
 @end
 

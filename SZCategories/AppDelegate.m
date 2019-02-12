@@ -26,6 +26,7 @@
     
     [self.window makeKeyAndVisible];
     
+    NSLog(@"%@",kName);
     return YES;
 }
 
