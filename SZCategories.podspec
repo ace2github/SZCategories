@@ -15,32 +15,20 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source       = { :git => "https://github.com/ace2github/SZCategories.git", :tag => s.version }
 
- # s.source_files = 'SZBase/SZBase/Sources/**/*'
 
-  s.default_subspec='SZBaseFoundation'
+  s.default_subspec='SZCategories'
 
-  s.subspec 'SZEasyRouter' do |ss|
-      ss.source_files = 'SZBase/SZBase/Sources/SZEasyRouter/**/*'
+  s.subspec 'Safe' do |ss|
+      ss.source_files = 'SZCategories/Sources/Safe/**/*'
   end
 
-  s.subspec 'SZWeekPool' do |ss|
-      ss.source_files = 'SZBase/SZBase/Sources/SZWeekPool/**/*'
+  s.subspec 'Thread' do |ss|
+      ss.source_files = 'SZCategories/Sources/Thread/**/*'
   end
 
-  s.subspec 'SZMultiDelegate' do |ss|
-      ss.source_files = 'SZBase/SZBase/Sources/SZMultiDelegate/**/*'
-      ss.dependency 'SZBase/SZWeekPool'
-  end
-
-  s.subspec 'SZRWLock' do |ss|
-      ss.source_files = 'SZBase/SZBase/Sources/SZRWLock/**/*'
-  end
-
-  s.subspec 'SZBaseFoundation' do |ss|
-     ss.dependency 'SZBase/SZWeekPool'
-     ss.dependency 'SZBase/SZMultiDelegate'
-     ss.dependency 'SZBase/SZEasyRouter'
-     ss.dependency 'SZBase/SZRWLock'
+  s.subspec 'SZCategories' do |ss|
+     ss.dependency 'SZCategories/Safe'
+     ss.dependency 'SZCategories/Thread'
   end
 
 end
