@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		1C0D9316221298FB00853CDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D9315221298FB00853CDC /* AppDelegate.m */; };
 		1C0D9319221298FB00853CDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D9318221298FB00853CDC /* ViewController.m */; };
-		1C0D931C221298FB00853CDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0D931A221298FB00853CDC /* Main.storyboard */; };
 		1C0D931E221298FD00853CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0D931D221298FD00853CDC /* Assets.xcassets */; };
-		1C0D9321221298FD00853CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0D931F221298FD00853CDC /* LaunchScreen.storyboard */; };
 		1C0D9324221298FD00853CDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D9323221298FD00853CDC /* main.m */; };
 		1C0D932E221298FD00853CDC /* SZCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D932D221298FD00853CDC /* SZCategoriesTests.m */; };
 		1C0D9339221298FD00853CDC /* SZCategoriesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D9338221298FD00853CDC /* SZCategoriesUITests.m */; };
+		1C0D934722129CE700853CDC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1C0D934622129CE700853CDC /* README.md */; };
+		1C0D935C22129D7800853CDC /* NSObject+ZTThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D934A22129D7800853CDC /* NSObject+ZTThread.m */; };
+		1C0D935D22129D7800853CDC /* NSDictionary+ZTSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D934F22129D7800853CDC /* NSDictionary+ZTSafe.m */; };
+		1C0D935E22129D7800853CDC /* NSString+ZTSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D935222129D7800853CDC /* NSString+ZTSafe.m */; };
+		1C0D935F22129D7800853CDC /* NSArray+ZTSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D935522129D7800853CDC /* NSArray+ZTSafe.m */; };
+		1C0D936022129D7800853CDC /* NSObject+ZTSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D935822129D7800853CDC /* NSObject+ZTSafe.m */; };
+		1C0D936122129D7800853CDC /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D935922129D7800853CDC /* NSObject+Common.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +45,7 @@
 		1C0D9315221298FB00853CDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1C0D9317221298FB00853CDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1C0D9318221298FB00853CDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1C0D931B221298FB00853CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C0D931D221298FD00853CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1C0D9320221298FD00853CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C0D9322221298FD00853CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C0D9323221298FD00853CDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1C0D9329221298FD00853CDC /* SZCategoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZCategoriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +54,20 @@
 		1C0D9334221298FD00853CDC /* SZCategoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZCategoriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C0D9338221298FD00853CDC /* SZCategoriesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZCategoriesUITests.m; sourceTree = "<group>"; };
 		1C0D933A221298FD00853CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C0D934622129CE700853CDC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1C0D934A22129D7800853CDC /* NSObject+ZTThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZTThread.m"; sourceTree = "<group>"; };
+		1C0D934B22129D7800853CDC /* NSObject+ZTThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZTThread.h"; sourceTree = "<group>"; };
+		1C0D934E22129D7800853CDC /* NSDictionary+ZTSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZTSafe.h"; sourceTree = "<group>"; };
+		1C0D934F22129D7800853CDC /* NSDictionary+ZTSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZTSafe.m"; sourceTree = "<group>"; };
+		1C0D935122129D7800853CDC /* NSString+ZTSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZTSafe.h"; sourceTree = "<group>"; };
+		1C0D935222129D7800853CDC /* NSString+ZTSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZTSafe.m"; sourceTree = "<group>"; };
+		1C0D935422129D7800853CDC /* NSArray+ZTSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZTSafe.h"; sourceTree = "<group>"; };
+		1C0D935522129D7800853CDC /* NSArray+ZTSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ZTSafe.m"; sourceTree = "<group>"; };
+		1C0D935622129D7800853CDC /* SafeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeHeader.h; sourceTree = "<group>"; };
+		1C0D935822129D7800853CDC /* NSObject+ZTSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZTSafe.m"; sourceTree = "<group>"; };
+		1C0D935922129D7800853CDC /* NSObject+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Common.m"; sourceTree = "<group>"; };
+		1C0D935A22129D7800853CDC /* NSObject+ZTSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZTSafe.h"; sourceTree = "<group>"; };
+		1C0D935B22129D7800853CDC /* NSObject+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Common.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +98,7 @@
 		1C0D9308221298FB00853CDC = {
 			isa = PBXGroup;
 			children = (
+				1C0D934622129CE700853CDC /* README.md */,
 				1C0D9313221298FB00853CDC /* SZCategories */,
 				1C0D932C221298FD00853CDC /* SZCategoriesTests */,
 				1C0D9337221298FD00853CDC /* SZCategoriesUITests */,
@@ -101,13 +119,12 @@
 		1C0D9313221298FB00853CDC /* SZCategories */ = {
 			isa = PBXGroup;
 			children = (
+				1C0D934822129D2F00853CDC /* Sources */,
 				1C0D9314221298FB00853CDC /* AppDelegate.h */,
 				1C0D9315221298FB00853CDC /* AppDelegate.m */,
 				1C0D9317221298FB00853CDC /* ViewController.h */,
 				1C0D9318221298FB00853CDC /* ViewController.m */,
-				1C0D931A221298FB00853CDC /* Main.storyboard */,
 				1C0D931D221298FD00853CDC /* Assets.xcassets */,
-				1C0D931F221298FD00853CDC /* LaunchScreen.storyboard */,
 				1C0D9322221298FD00853CDC /* Info.plist */,
 				1C0D9323221298FD00853CDC /* main.m */,
 			);
@@ -130,6 +147,74 @@
 				1C0D933A221298FD00853CDC /* Info.plist */,
 			);
 			path = SZCategoriesUITests;
+			sourceTree = "<group>";
+		};
+		1C0D934822129D2F00853CDC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1C0D934C22129D7800853CDC /* Safe */,
+				1C0D934922129D7800853CDC /* Thread */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1C0D934922129D7800853CDC /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				1C0D934B22129D7800853CDC /* NSObject+ZTThread.h */,
+				1C0D934A22129D7800853CDC /* NSObject+ZTThread.m */,
+			);
+			path = Thread;
+			sourceTree = "<group>";
+		};
+		1C0D934C22129D7800853CDC /* Safe */ = {
+			isa = PBXGroup;
+			children = (
+				1C0D935322129D7800853CDC /* NSArray */,
+				1C0D934D22129D7800853CDC /* NSDictionary */,
+				1C0D935722129D7800853CDC /* NSObject */,
+				1C0D935022129D7800853CDC /* NSString */,
+				1C0D935622129D7800853CDC /* SafeHeader.h */,
+			);
+			path = Safe;
+			sourceTree = "<group>";
+		};
+		1C0D934D22129D7800853CDC /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				1C0D934E22129D7800853CDC /* NSDictionary+ZTSafe.h */,
+				1C0D934F22129D7800853CDC /* NSDictionary+ZTSafe.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		1C0D935022129D7800853CDC /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				1C0D935122129D7800853CDC /* NSString+ZTSafe.h */,
+				1C0D935222129D7800853CDC /* NSString+ZTSafe.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		1C0D935322129D7800853CDC /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				1C0D935422129D7800853CDC /* NSArray+ZTSafe.h */,
+				1C0D935522129D7800853CDC /* NSArray+ZTSafe.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		1C0D935722129D7800853CDC /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				1C0D935B22129D7800853CDC /* NSObject+Common.h */,
+				1C0D935922129D7800853CDC /* NSObject+Common.m */,
+				1C0D935A22129D7800853CDC /* NSObject+ZTSafe.h */,
+				1C0D935822129D7800853CDC /* NSObject+ZTSafe.m */,
+			);
+			path = NSObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +320,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C0D9321221298FD00853CDC /* LaunchScreen.storyboard in Resources */,
+				1C0D934722129CE700853CDC /* README.md in Resources */,
 				1C0D931E221298FD00853CDC /* Assets.xcassets in Resources */,
-				1C0D931C221298FB00853CDC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +346,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C0D935E22129D7800853CDC /* NSString+ZTSafe.m in Sources */,
+				1C0D936122129D7800853CDC /* NSObject+Common.m in Sources */,
+				1C0D935D22129D7800853CDC /* NSDictionary+ZTSafe.m in Sources */,
+				1C0D935F22129D7800853CDC /* NSArray+ZTSafe.m in Sources */,
 				1C0D9319221298FB00853CDC /* ViewController.m in Sources */,
+				1C0D936022129D7800853CDC /* NSObject+ZTSafe.m in Sources */,
 				1C0D9324221298FD00853CDC /* main.m in Sources */,
 				1C0D9316221298FB00853CDC /* AppDelegate.m in Sources */,
+				1C0D935C22129D7800853CDC /* NSObject+ZTThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +388,6 @@
 			targetProxy = 1C0D9335221298FD00853CDC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1C0D931A221298FB00853CDC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C0D931B221298FB00853CDC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1C0D931F221298FD00853CDC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C0D9320221298FD00853CDC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1C0D933B221298FD00853CDC /* Debug */ = {
@@ -437,6 +508,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SZCategories/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +525,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SZCategories/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
