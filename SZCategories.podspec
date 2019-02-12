@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SZCategories"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "SZCategories 是基础工具类库"
 
   s.description  = <<-DESC
