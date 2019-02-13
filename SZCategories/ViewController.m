@@ -22,6 +22,13 @@ SZY_CONST_STRING kName = @"CCH";
     NSString *name = @"CCH";
     NSLog(@"%@",SZDynamicCast(name, NSString));
     NSLog(@"%@",SZDynamicCast(@1, NSString));
+    @weakify(self)
+    @weakify(name)
+    dispatch_async(dispatch_get_main_queue(), ^{
+        @strongify(self)
+        @strongify(name)
+        NSLog(@"%@,%@",self, name);
+    });
 }
 
 
