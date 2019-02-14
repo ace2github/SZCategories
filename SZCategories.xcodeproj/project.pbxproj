@@ -74,6 +74,7 @@
 		1C5FAC2E22153E1500914BD9 /* SZAllMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZAllMacros.h; sourceTree = "<group>"; };
 		1C5FAC2F22153E4900914BD9 /* SZWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZWorld.h; sourceTree = "<group>"; };
 		1C5FAC3022153E4900914BD9 /* SZWorld.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZWorld.m; sourceTree = "<group>"; };
+		1C5FAC33221542B800914BD9 /* SZCompilerMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCompilerMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +232,7 @@
 			children = (
 				1C0D93632212AC9300853CDC /* SZCommonMacros.h */,
 				1C5FAC2D22153D4D00914BD9 /* SZCodeMacros.h */,
+				1C5FAC33221542B800914BD9 /* SZCompilerMacros.h */,
 				1C5FAC2E22153E1500914BD9 /* SZAllMacros.h */,
 			);
 			path = Macros;

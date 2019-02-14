@@ -33,6 +33,10 @@ SZY_CONST_STRING kName = @"CCH";
     });
     
     NSLog(@"%@", [SZWorld defaultSingleton]);
+    
+    SZClangDiagnosticIgnoredUnusedVariable()
+    NSString *unuseVar = @"";
+    SZClangDiagnosticPod()
 }
 
 
