@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "SZWorld.h"
+
 @interface ViewController ()
 
 @end
@@ -29,6 +31,8 @@ SZY_CONST_STRING kName = @"CCH";
         @strongify(name)
         NSLog(@"%@,%@",self, name);
     });
+    
+    NSLog(@"%@", [SZWorld defaultSingleton]);
 }
 
 

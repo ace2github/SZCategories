@@ -20,6 +20,7 @@
 		1C0D935F22129D7800853CDC /* NSArray+ZTSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D935522129D7800853CDC /* NSArray+ZTSafe.m */; };
 		1C0D936022129D7800853CDC /* NSObject+ZTSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D935822129D7800853CDC /* NSObject+ZTSafe.m */; };
 		1C0D936122129D7800853CDC /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D935922129D7800853CDC /* NSObject+Common.m */; };
+		1C5FAC3122153E4900914BD9 /* SZWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5FAC3022153E4900914BD9 /* SZWorld.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,10 @@
 		1C0D935A22129D7800853CDC /* NSObject+ZTSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZTSafe.h"; sourceTree = "<group>"; };
 		1C0D935B22129D7800853CDC /* NSObject+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Common.h"; sourceTree = "<group>"; };
 		1C0D93632212AC9300853CDC /* SZCommonMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCommonMacros.h; sourceTree = "<group>"; };
+		1C5FAC2D22153D4D00914BD9 /* SZCodeMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCodeMacros.h; sourceTree = "<group>"; };
+		1C5FAC2E22153E1500914BD9 /* SZAllMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZAllMacros.h; sourceTree = "<group>"; };
+		1C5FAC2F22153E4900914BD9 /* SZWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZWorld.h; sourceTree = "<group>"; };
+		1C5FAC3022153E4900914BD9 /* SZWorld.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZWorld.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +130,8 @@
 				1C0D9315221298FB00853CDC /* AppDelegate.m */,
 				1C0D9317221298FB00853CDC /* ViewController.h */,
 				1C0D9318221298FB00853CDC /* ViewController.m */,
+				1C5FAC2F22153E4900914BD9 /* SZWorld.h */,
+				1C5FAC3022153E4900914BD9 /* SZWorld.m */,
 				1C0D931D221298FD00853CDC /* Assets.xcassets */,
 				1C0D9322221298FD00853CDC /* Info.plist */,
 				1C0D9323221298FD00853CDC /* main.m */,
@@ -223,6 +230,8 @@
 			isa = PBXGroup;
 			children = (
 				1C0D93632212AC9300853CDC /* SZCommonMacros.h */,
+				1C5FAC2D22153D4D00914BD9 /* SZCodeMacros.h */,
+				1C5FAC2E22153E1500914BD9 /* SZAllMacros.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -363,6 +372,7 @@
 				1C0D9319221298FB00853CDC /* ViewController.m in Sources */,
 				1C0D936022129D7800853CDC /* NSObject+ZTSafe.m in Sources */,
 				1C0D9324221298FD00853CDC /* main.m in Sources */,
+				1C5FAC3122153E4900914BD9 /* SZWorld.m in Sources */,
 				1C0D9316221298FB00853CDC /* AppDelegate.m in Sources */,
 				1C0D935C22129D7800853CDC /* NSObject+ZTThread.m in Sources */,
 			);
