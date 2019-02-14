@@ -9,6 +9,7 @@
 #ifndef SZCodeMacros_h
 #define SZCodeMacros_h
 
+/* 单例宏定义 */
 #define SZ_DECLARE_SINGLETON() \
 + (instancetype)defaultSingleton;
 
@@ -21,5 +22,8 @@
     }); \
     return _defaultSingleton; \
 }
+
+
+/*  */
 
 #endif /* SZCodeMacros_h */
